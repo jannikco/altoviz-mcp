@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "b96a051973405f305b2540f92d3b533c5f6da605a99aae1614df53f377a2d686",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://developer.altoviz.com/openapi.json"
+  ],
+  "id": "altoviz-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Altoviz MCP setup and connection checker",
+  "description": "Generate Altoviz MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "altoviz",
+  "appName": "Altoviz",
+  "providerDocs": "https://developer.altoviz.com/openapi.json",
+  "providerWebsite": "https://www.altoviz.com/",
+  "authentication": {
+    "type": "api_key_header",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://developer.altoviz.com/docs/api/guides/authentication",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-altoviz-mcp"
+}
